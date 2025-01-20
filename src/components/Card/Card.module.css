@@ -1,0 +1,92 @@
+.card {
+    border-radius: 15px;
+    background-color: var(--negro);
+    overflow: hidden;
+    max-width: 319px;
+}
+
+.categoria-Front-End{
+    border: 5px solid var(--color-front);
+    box-shadow: 
+        inset 0 0 5px 5px rgba(34, 113, 209, 0.8), 
+        0 0 5px 5px rgba(34, 113, 209, 0.8);
+}
+
+.categoria-Back-End{
+    border: 5px solid var(--color-back);
+    box-shadow: 
+        inset 0 0 5px 5px rgba(0, 200, 111, 0.8), 
+        0 0 5px 5px rgba(0, 113, 111, 0.8);
+}
+
+.categoria-Innovacion-y-Gestion{
+    border: 5px solid var(--color-inova);
+    box-shadow: 
+        inset 0 0 5px 5px rgba(255, 186, 5, 0.8), 
+        0 0 5px 5px rgba(255, 186, 5, 0.8);
+}
+
+.cardImage {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.cardButtons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.categoria-Front-End .cardButtons{
+    box-shadow: inset 0 0 5px 5px rgba(34, 113, 209, 0.8);
+}
+
+.categoria-Back-End .cardButtons {
+    box-shadow: inset 0 0 5px 5px rgba(0, 200, 111, 0.8)
+}
+
+.categoria-Innovacion-y-Gestion .cardButtons {
+    box-shadow: inset 0 0 5px 5px rgba(255, 186, 5, 0.8)
+}
+
+.cardButtons button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--blanco);
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.cardButtons button:hover{
+    transform: scale(1.1);
+}
+
+.cardButtons button img {
+    height: 16px;
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        max-width: 430px;
+    }
+}
+
+@media (max-width: 540px) {
+    .card {
+        max-width: 356px;
+    }
+}

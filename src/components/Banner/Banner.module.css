@@ -1,0 +1,33 @@
+.imgBanner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 832px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gradiente{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.imgBanner > :not(.gradiente) {
+    z-index: 2;
+}
+
+@media (max-width: 1024px) {
+    .imgBanner{
+        width: 100%;
+        height: 590px;
+    }
+}
+@media (max-width: 540px) {
+    .imgBanner{
+        display: none;
+    }
+}

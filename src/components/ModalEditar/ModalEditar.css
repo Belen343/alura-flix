@@ -1,0 +1,61 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    position: relative;
+    background: #03122F;
+    padding: 84px;
+    border-radius: 15px;
+    border: 5px solid #6BD1FF;
+    color: rgb(107, 209, 255);
+    max-width: 500px;
+    max-height: 60vh; 
+    width: 100%;
+    overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar {
+    width: 10px;
+}
+.modalContent::-webkit-scrollbar-track {
+    background: rgb(34, 113, 209, 17%);
+    border-radius: 5px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+    background: var(--color-principal);
+    border-radius: 5px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+@media (max-width: 540px) {
+    .modalContent {
+        padding: 40px;
+        max-width: 300px;
+        max-height: 60vh; 
+    }
+    .modalContent::-webkit-scrollbar {
+        width: 6px;
+    }
+}

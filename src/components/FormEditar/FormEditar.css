@@ -1,0 +1,31 @@
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--blanco);
+}
+
+.container-header {
+    color: var(--color-principal);
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.form-buttons-edit {
+    display: flex;
+    justify-content: space-between !important;
+    gap: 30px;
+    width: 100%;
+}
+
+@media (max-width: 540px) {
+    .container-form {
+        gap: 0px;
+    }
+    .container-header {
+        font-size: 32px;
+    }
+    .form-buttons {
+        flex-direction: column;
+    }
+}

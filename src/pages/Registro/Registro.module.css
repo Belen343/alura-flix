@@ -1,0 +1,20 @@
+.containerRegistro{
+    padding: 0px 47px 71px 47px;
+}
+.containerTitulos{
+    padding-top: 71px;
+    padding-bottom: 47px;
+    text-align: center;
+    color: var(--blanco);
+}
+.containerTitulos h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+}
+.containerTitulos p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
+}

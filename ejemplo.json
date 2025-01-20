@@ -1,0 +1,36 @@
+{
+    "videos": [
+     {
+         "id": 1,
+         "titulo": "Como utilizar el Display block, inline, inline-block",
+         "categoria": "Front End",
+         "imagen": "img/card.png",
+         "video": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+         "descripcion": "Explicación de la propiedad Display en CSS y sus valores, mostrando el comportamiento del elemento DIV con valores como block, inline e inline-block."
+     },
+     {
+         "id": 2,
+         "titulo": "Productividad en el trabajo remoto",
+         "categoria": "Innovacion y Gestion",
+         "imagen": "img/banner.png",
+         "video": "https://www.youtube.com/embed/AULPtYo25Lw?si=UGdKX1NSrEcQ0jfn",
+         "descripcion": "El trabajo remoto es común, especialmente en tecnología, pero puede haber distracciones en casa. Aquí te damos algunos consejos para mantener la productividad."
+     },
+     {
+         "id": 3,
+         "titulo": "¿Cuáles son las principales áreas de la programación?",
+         "categoria": "Back End",
+         "imagen": "img/banner.png",
+         "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
+         "descripcion": "¿No sabes qué área de la programación aprender? La gran cantidad de lenguajes puede confundirte. Acompaña a nuestra instructora y descubre cómo empezar."
+     },
+     {
+         "id": 4,
+         "titulo": "Detección de intruso con IA",
+         "categoria": "Back End",
+         "imagen": "img/banner.png",
+         "video": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
+         "descripcion": "En este video, aprenderás a usar IA para detectar intrusos al volante y enviar alertas a la policía con Python, incluyendo imagen, ubicación y placa del vehículo."
+     }
+    ]
+   }

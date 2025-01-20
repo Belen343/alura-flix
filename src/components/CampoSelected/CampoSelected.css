@@ -1,0 +1,40 @@
+/*Etiqueta label*/
+.input-label {
+    color: var(--blanco) !important;
+}
+/*Campo de texto*/
+.input-field {
+    color: var(--blanco) !important;
+    border-radius: 15px !important;
+}
+/*Borde input sin enfocar*/
+.input-field .MuiOutlinedInput-notchedOutline {
+    border-color: var(--color-secundario) !important;
+}
+/*Borde input enfocado*/
+.input-field.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--color-principal) !important;
+}
+/* Borde y texto cuando hay un error */
+.input-field.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: red !important;
+}
+.error-text {
+    color: red !important;
+}
+/*Etiqueta del input enfocado*/
+.input-label.Mui-focused {
+    color: var(--color-principal) !important;
+}
+/*Etiqueta del input con error*/
+.input-label.Mui-error {
+    color: red !important;
+}
+/* Estilo por defecto del placeholder */
+.input-field select::placeholder{
+    color: var(--gris) !important;
+}
+/* Plaholder cuando hay un error */
+.input-field.Mui-error select::placeholder{
+    color: red !important;
+}

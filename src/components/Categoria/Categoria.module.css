@@ -1,0 +1,38 @@
+.btnCategoria{
+    display: inline-block; 
+    color: var(--gris);
+    border: none;
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 432px;
+    padding: 10px;
+}
+
+.categoria-Front-End{
+    background-color: var(--color-front);
+}
+
+.categoria-Back-End{
+    background-color: var(--color-back);
+}
+
+.categoria-Innovacion-y-Gestion{
+    background-color: var(--color-inova);
+}
+
+@media (max-width: 1024px) {
+    .btnCategoria{
+        padding: 10px;
+        width: 2000px;
+        font-size: 28px;
+    }
+}
+@media (max-width: 540px) {
+    .btnCategoria{
+        padding: 20px;
+        max-width: 286px;
+        font-size: 24px;
+    }
+}

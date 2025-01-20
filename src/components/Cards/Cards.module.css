@@ -1,0 +1,47 @@
+.sectionCards{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 50px;
+}
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .sectionCards{
+        align-items: center;
+    }
+    .containerCards {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 20px;
+    }
+    .containerCards > * {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 540px) {
+    .sectionCards{
+        align-items: self-start;
+        padding: 29px 42px;
+        overflow-x: hidden;
+    }
+    .containerCards {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 20px;
+    }
+    .containerCards > * {
+        flex: 0 0 100%;
+    }
+}
