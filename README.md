@@ -20,7 +20,7 @@
 ##### Cómo Usar el Proyecto
 1. Clona el repositorio
 ```
-git clone https://github.com/Belen343/challenge-AluraFlix.git
+git clone https://github.com/Belen343/challengeAluraFlix.git
 ```
 2. Instala las dependencias necesarias
 ```
